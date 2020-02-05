@@ -22,6 +22,14 @@ fviz_mca_ind(prod.MCA, col.ind = "steelblue")
 
 View(prod.mat)# to see which column 129 is at
 
+
+
+
+
+
+
+
+
 #part b
 #removing indv 129
 newprodrat = prod.mat[-c(4),]
